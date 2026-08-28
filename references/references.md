@@ -57,3 +57,57 @@ This collection contains verified scholarly papers on citation reliability, cita
   Khashayar Khajavi, Shaghayegh Sadeghi, Rise Adhikari, and Alexander Tessier, 2026, *arXiv*.  
   [Paper](https://arxiv.org/abs/2605.27700)  
   Proposes retrieval-grounded verification for detecting inaccurate and fabricated citations.
+
+## Summary Faithfulness and Evaluation Benchmarks
+
+- **On Faithfulness and Factuality in Abstractive Summarization**  
+  Joshua Maynez, Shashi Narayan, Bernd Bohnet, and Ryan McDonald, 2020, *ACL*.  
+  [Paper](https://aclanthology.org/2020.acl-main.173/)  
+  Shows why generated summaries may be fluent but unsupported by the original source.
+
+- **Understanding Factuality in Abstractive Summarization with FRANK: A Benchmark for Factuality Metrics**  
+  Artidoro Pagnoni, Vidhisha Balachandran, and Yulia Tsvetkov, 2021, *NAACL*.  
+  [Paper](https://aclanthology.org/2021.naacl-main.383/)  
+  Introduces the FRANK benchmark for evaluating factual errors in summaries.
+
+- **TRUE: Re-evaluating Factual Consistency Evaluation**  
+  Or Honovich et al., 2022, *NAACL*.  
+  [Paper](https://aclanthology.org/2022.naacl-main.287/)  
+  Provides a standardized evaluation of factual-consistency metrics across tasks.
+
+- **FActScore: Fine-grained Atomic Evaluation of Factual Precision in Long Form Text Generation**  
+  Sewon Min et al., 2023, *EMNLP*.  
+  [Paper](https://aclanthology.org/2023.emnlp-main.741/)  
+  Evaluates factual precision by checking individual atomic claims against evidence.
+
+- **SummaC: Re-Visiting NLI-based Models for Inconsistency Detection in Summarization**  
+  Philippe Laban, Tobias Schnabel, Paul N. Bennett, and Marti A. Hearst, 2022, *Transactions of the Association for Computational Linguistics*.  
+  [Paper](https://aclanthology.org/2022.tacl-1.10/)  
+  Applies natural-language inference to detect unsupported statements in summaries.
+
+- **SummEval: Re-evaluating Summarization Evaluation**  
+  Alexander R. Fabbri et al., 2021, *Transactions of the Association for Computational Linguistics*.  
+  [Paper](https://aclanthology.org/2021.tacl-1.24/)  
+  Provides a benchmark and toolkit for comparing summary-evaluation methods.
+
+## Mitigation and Scientific-Summary Reliability
+
+- **Chain-of-Verification Reduces Hallucination in Large Language Models**  
+  Shehzaad Dhuliawala et al., 2024, *Findings of ACL*.  
+  [Paper](https://aclanthology.org/2024.findings-acl.212/)  
+  Proposes a verification process that helps reduce hallucinations in LLM responses.
+
+- **Generalization Bias in Large Language Model Summarization of Scientific Research**  
+  Uwe Peters and Benjamin Chin-Yee, 2025, *Royal Society Open Science*.  
+  [Paper](https://arxiv.org/abs/2504.00025)  
+  Studies how LLMs may overgeneralize the findings of scientific research even when citations are correct.
+
+- **ScholarCopilot: Training Large Language Models for Academic Writing with Accurate Citations**  
+  Y. Wang, X. Ma, P. Nie, H. Zeng, Z. Lyu, Y. Zhang, B. Schneider, Y. Lu, X. Yue, and W. Chen, 2025, *arXiv*.  
+  [Paper](https://arxiv.org/abs/2504.00824)  
+  Presents a citation-aware approach for improving the accuracy of references in AI-assisted academic writing.
+
+- **Re-evaluating Evaluation in Text Summarization**  
+  Manik Bhandari et al., 2020, *EMNLP*.  
+  [Paper](https://aclanthology.org/2020.emnlp-main.751/)  
+  Examines the reliability of automatic metrics for evaluating generated summaries.
